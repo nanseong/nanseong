@@ -1,300 +1,356 @@
-# 권환성
+# 👋 안녕하세요, AI Engineer 권환성입니다.
 
-### AI Engineer | LLM · RAG · Knowledge Graph · Machine Learning
+### AI · RAG · Knowledge Graph · Backend
 
-데이터를 분석하는 것에서 끝나지 않고,  
-**검색 → 생성 → 검증 → 서비스**까지 연결되는 AI 시스템을 개발합니다.
+LLM을 단순히 호출하는 것보다  
+**데이터를 수집·구조화하고, 검색하고, 근거 있는 답변으로 연결하는 과정**에 관심이 있습니다.
 
-LLM과 Machine Learning을 활용해 실제 문제를 해결하고,  
-모델의 결과를 신뢰할 수 있는 서비스로 만드는 과정에 관심이 있습니다.
-
----
-
-## About Me
-
-사진과 뉴미디어아트를 전공하며 **사용자에게 정보를 어떻게 전달할 것인가**를 고민해왔고,  
-현재는 그 경험을 AI 기술과 결합해 **데이터에서 사용자 경험까지 이어지는 서비스**를 개발하고 있습니다.
-
-특히 LLM 기반 서비스에서 단순히 모델을 호출하는 것보다  
-**데이터 품질, 검색 정확도, 생성 결과 검증, 재현 가능한 파이프라인**을 중요하게 생각합니다.
-
-주요 관심 분야는 **RAG, Knowledge Graph, Multi-Agent System, Machine Learning, AI 기반 개인화 서비스**입니다.
+RAG, VectorDB, Knowledge Graph, Multi-Agent를 활용한 AI 서비스를 개발하며  
+**검색 품질과 생성 결과를 측정하고 개선할 수 있는 시스템**을 만드는 것을 목표로 합니다.
 
 ---
 
-## Core Competencies
+## 🛠️ Tech Stack
 
-| 영역 | 역량 |
-|---|---|
-| **LLM · RAG** | 문서 전처리, Embedding, Hybrid Search, Reranking, Prompt Engineering, 생성 결과 검증 |
-| **Knowledge Graph** | Entity 정규화, Relationship 설계, Graph Search, Neo4j 기반 지식그래프 구축 |
-| **Multi-Agent** | Agent 역할 분리, State 관리, Routing, Validator, Retry/Fallback 흐름 설계 |
-| **Machine Learning** | 데이터 전처리, Feature Engineering, 분류 모델 학습, 성능 평가 및 개선 |
-| **Data Pipeline** | 정형·비정형 데이터 정제, 자동 검증, 재현 가능한 데이터 처리 파이프라인 |
-| **Backend · DB** | Django, REST API, PostgreSQL, pgvector, Neo4j 기반 AI 서비스 연동 |
-| **AI Evaluation** | Precision·Recall·F1, RAGAS, Golden Set, Rule-based Validation 기반 품질 평가 |
+### Language
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
----
+### AI · LLM
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
-## Tech Stack
+### Data · ML
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
-### AI / LLM
-`Python` `LangChain` `LangGraph` `OpenAI API` `RAG` `Multi-Agent`  
-`Prompt Engineering` `RAGAS` `Hugging Face`
+### Database · Search
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-### Machine Learning
-`Scikit-learn` `PyTorch` `Pandas` `NumPy`
-
-### Database / Search
-`PostgreSQL` `pgvector` `Neo4j` `Hybrid Search` `Vector Search`
-
-### Backend / Infrastructure
-`Django` `REST API` `Docker` `Git`
-
----
-
-# Featured Projects
-
-## 🇰🇷 HIMATE — AI 기반 한국사 학습 플랫폼
-
-`LLM` `RAG` `Knowledge Graph` `Machine Learning` `Neo4j` `PostgreSQL` `pgvector`
-
-한국사능력검정시험 학습 데이터를 기반으로  
-**취약점 진단 → 맞춤 문제 → AI 해설 → 학습 계획 → 주간 리포트**까지 연결한 개인화 AI 학습 플랫폼입니다.
-
-### 주요 기여
-
-- 한국사 데이터 기반 **Neo4j Knowledge Graph 구축**
-- 약 **19,000개 Entity / 40,000개 Relationship** 규모의 그래프 데이터 구성
-- 동명이인·이명·중복 Entity 처리를 위한 정규화 및 병합 검증 로직 설계
-- PostgreSQL + pgvector 기반 **Hybrid RAG 검색 구조 구현**
-- Dense/Sparse Retrieval 및 Reranker 기반 검색 성능 개선
-- 학습자의 오답 데이터를 활용한 **취약점 분석 로직 구현**
-- 취약점 기반 7일 학습 계획 및 AI 주간 리포트 생성
-- 한국사 문제 자동 생성 및 품질 검증 파이프라인 구축
-
-### 문제 해결
-
-여러 출처의 한국사 데이터에는 동일 이름을 가진 인물과 서로 다른 표기의 Entity가 존재했습니다.
-
-단순 문자열 비교를 사용하면 서로 다른 인물이 하나로 병합될 수 있기 때문에,
-
-> **Precision > Recall**
-
-을 기준으로 병합 전략을 설계했습니다.
-
-한자·시대·생몰년·출처 등의 조건을 검증하고,  
-LLM은 병합 후보만 제안하며 **최종 판단은 코드 기반 검증 로직이 수행하도록 구성**했습니다.
-
-### 성과
-
-- Knowledge Graph Entity 약 **19,000개**
-- Fact Relationship 약 **40,000건**
-- Golden Set 기준 **오병합 0건**
-- Entity Coverage **89.2%**
-- 판정 일치도 **0.99**
-
-RAG 검색에서도 Top-K와 Reranker를 조정하여
-
-- Context Precision **0.72 → 0.83**
-- Context Recall **0.79 → 0.87**
-- Faithfulness **0.90 → 0.94**
-- Answer Relevance **0.82 유지**
-
-의 결과를 확인했습니다.
+### Backend · Tools
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-## 🤖 한국사 문제 자동 생성 Pipeline
+## 💡 Core Competencies
 
-`LLM` `SLLM` `Prompt Engineering` `Validation` `Checkpoint`
+### RAG & Retrieval
+- PostgreSQL · pgvector 기반 Vector Search 구축
+- Dense / Sparse 검색을 결합한 Hybrid Retrieval 설계
+- CrossEncoder Reranker를 활용한 검색 결과 재정렬
+- RAGAS 기반 검색·답변 품질 평가 및 검색 파라미터 개선
 
-LLM과 SLLM을 활용하여 한국사 5지선다 문제를 대량 생성하고,  
-생성 결과를 자동으로 검증하는 파이프라인을 개발했습니다.
+### Knowledge Graph
+- Neo4j 기반 GraphDB 스키마 설계 및 데이터 구축
+- Entity · Relationship 기반 데이터 구조화
+- Vector Search와 Graph Context를 결합한 검색 구조 구현
+- 관계 데이터를 활용한 LLM 답변 Context 보강
 
-### Architecture
+### LLM Application
+- 검색 근거 기반 AI Chatbot 구현
+- LangGraph 기반 Multi-Agent Workflow 참여
+- Agent 결과를 종합하는 Final Answer Agent 구현
+- 검색 결과와 생성 답변 간 Grounding 검증
+
+### Backend & Service
+- Django 기반 웹 애플리케이션 개발
+- 사용자 인증 및 Session 기반 계정 기능 구현
+- AI/RAG Backend와 Frontend 연동
+- 서비스 UI 설계 및 사용자 Flow 구현
+
+---
+
+# 🚀 Projects
+
+## 🇰🇷 HIMATE
+### AI 기반 맞춤형 한국사 학습 서비스
+
+> 진단평가부터 맞춤 문제풀이, 오답 분석, 학습 계획,  
+> 근거 기반 AI 챗봇까지 연결한 한국사 학습 플랫폼
+
+**Role · AI/RAG · Data · Full-stack**
+
+`Python` `Django` `PostgreSQL` `pgvector` `Neo4j` `LangChain` `OpenAI`
+
+### 담당 영역
+
+**한국사 학습자료 수집 및 전처리**
+- 한국사 RAG에 활용할 학습 자료 수집
+- 서로 다른 형태의 원천 데이터를 검색 가능한 구조로 정제
+- 문서 Metadata와 검색 단위를 고려한 데이터 전처리
+
+**PostgreSQL · pgvector Embedding Pipeline**
+- 전처리된 한국사 문서를 PostgreSQL에 적재
+- 문서 Chunk 단위 Vector Embedding 생성
+- pgvector 기반 의미 검색 환경 구축
+
+**Hybrid RAG Search**
+- Vector Search와 Keyword Search를 결합한 Hybrid Retrieval 구성
+- 검색 후보에 CrossEncoder Reranker 적용
+- 질문과 관련성이 높은 Context를 선별해 LLM에 전달
 
 ```text
-Closed JSON Pack
-        ↓
-GPT 지문 · 발문 생성
-        ↓
-SLLM 선택지 생성
-        ↓
-Local Gate Validation
-        ↓
-LLM Evaluation
-        ↓
-부분 재생성 / Repair
-        ↓
-해설 생성
-        ↓
-Database
+User Question
+      │
+      ▼
+Query Processing
+      │
+ ┌────┴────┐
+ ▼         ▼
+Vector    Keyword
+Search    Search
+ │          │
+ └────┬─────┘
+      ▼
+ Candidate Context
+      │
+      ▼
+   Reranker
+      │
+      ▼
+Graph Context
+      │
+      ▼
+     LLM
+      │
+      ▼
+Grounded Answer
 ```
 
-### 주요 기여
+### RAG 성능 개선
 
-- 지문·발문·정답·오답을 독립적인 State로 관리
-- 실패한 구성 요소만 다시 생성하는 **Partial Retry 구조 구현**
-- Checkpoint 기반 중단·재개 기능 설계
-- 생성 결과 검증을 위한 **6개 Gate Validation 구조 설계**
-- 일반 선택지는 SLLM, 복잡한 구성은 GPT를 활용하는 모델 분리
-- 평가 결과의 Feedback을 재생성 Prompt에 전달하는 구조 구현
+검색 문서 수를 단순히 늘리는 대신  
+**Top-K 조정 + Reranker 적용**을 통해 실제 답변에 필요한 Context를 선별했습니다.
 
-### 문제 해결
+| Metric | Before | After |
+|---|---:|---:|
+| Context Precision | 0.72 | **0.83** |
+| Context Recall | 0.79 | **0.87** |
+| Faithfulness | 0.90 | **0.94** |
+| Answer Relevance | 0.82 | **0.82** |
 
-초기 구조에서는 50개의 문제 중 마지막 문제 하나가 실패해도  
-전체 문제를 처음부터 다시 생성해야 했습니다.
+최종적으로 **Top-K 5 + Reranker** 구성에서 가장 안정적인 성능을 확인했습니다.
 
-이를
+### GraphDB Context 연동
+
+Vector Search만으로 설명하기 어려운 역사적 관계를 보완하기 위해  
+Neo4j GraphDB의 Entity 관계 정보를 RAG Context와 연결했습니다.
 
 ```text
-문항 단위 재생성
-        ↓
-구성 요소 단위 재생성
+Vector Context
+      │
+      ├──────┐
+      │      │
+      ▼      ▼
+ Documents  Graph Context
+      │      │
+      └──┬───┘
+         ▼
+     LLM Answer
 ```
 
-구조로 변경했습니다.
+문서 검색 결과와 인물·사건·시대의 관계 정보를 함께 활용해  
+답변 생성에 필요한 Context를 확장했습니다.
 
-예를 들어 `오답 ③`만 평가에 실패하면  
-지문이나 다른 선택지는 유지하고 **오답 ③만 Feedback과 함께 다시 생성**합니다.
+### AI Chatbot
 
-이를 통해 불필요한 LLM 호출을 줄이고 대량 문제 생성에 적합한 구조로 개선했습니다.
+- 한국사 **개념 질문 / 문제 해설 질문** 유형 분리
+- 검색 근거 기반 답변 생성
+- RAG 검색 결과와 GraphDB Context를 답변에 연결
+- 챗봇 화면 및 Backend 연동 구현
+- 검색 → 생성 → 화면 출력까지 End-to-End 동작 검증
+
+### Full-stack Integration
+
+AI 기능 구현에 그치지 않고 실제 서비스에서 사용할 수 있도록
+
+- 챗봇 UI
+- 진단평가 화면
+- Django Backend 연동
+- RAG 응답 화면 출력
+- 기능 간 Integration Test
+
+까지 연결했습니다.
+
+**Repository → [HIMATE](https://github.com/nanseong/HIMATE)**
 
 ---
 
-## 🔍 Knowledge Graph 기반 오답 생성
+## 🍁 MapleStory RAG Multi-Agent Chatbot
+### 데이터 기반 게임 정보 검색 및 분석 AI
 
-`Neo4j` `Knowledge Graph` `Graph Search` `LLM`
+> 메이플스토리의 공식 API, 문서, GraphDB, Web Search를 결합해  
+> 캐릭터 분석과 근거 기반 답변을 제공하는 Multi-Agent RAG Chatbot
 
-정답과 역사적으로 유사하지만 실제로는 틀린 선택지를  
-Knowledge Graph에서 탐색하여 자동 생성하는 시스템입니다.
+**Role · GraphDB · Web RAG · Agent · Design**
 
-### 핵심 아이디어
+`LangGraph` `LangChain` `Neo4j` `Tavily` `PostgreSQL` `pgvector` `Streamlit`
+
+### 담당 영역
+
+**GraphDB Schema & Neo4j**
+- 보스 · 직업 · 장비 · 이벤트 등 게임 Entity 관계 정의
+- GraphDB Schema 설계
+- Neo4j 기반 관계 데이터 탐색 구조 구축
+
+**Web Search RAG**
+- 최신 공지와 이벤트처럼 내부 DB만으로 대응하기 어려운 질문을 위한 Web RAG 구현
+- 검색 결과의 출처와 최신성을 유지한 Context 구성
+- 내부 RAG와 외부 Web Search가 함께 사용될 수 있도록 검색 구조 설계
+
+**Final Answer Agent**
+- Research · Analytics · Calculator 등 개별 Agent 결과 수집
+- 여러 Agent의 Context를 하나의 답변으로 통합
+- 근거와 출처를 반영한 최종 응답 생성
 
 ```text
-정답 Entity
-    ↓
-Knowledge Graph 탐색
-    ↓
-동일 시대 / 유형 / 관계 후보
-    ↓
-오답 후보 추출
-    ↓
-Validation
+                 Supervisor
+                     │
+        ┌────────────┼────────────┐
+        ▼            ▼            ▼
+    Research     Analytics    Calculator
+        │            │            │
+        └────────────┼────────────┘
+                     ▼
+              Final Answer Agent
+                     │
+                     ▼
+               Final Response
 ```
 
-Graph의 Hop Distance를 활용하여 문제 난이도를 조절했습니다.
+**Design**
+- Streamlit 기반 서비스 UI 설계
+- AI 기능이 사용자의 질문 흐름과 자연스럽게 연결되도록 화면 구성
 
-| Graph Distance | 난이도 |
-|---|---|
-| 1-Hop | 쉬움 |
-| 2-Hop | 보통 |
-| 3-Hop | 어려움 |
-
-설정된 난이도와 Graph Distance가 일치하지 않으면  
-해당 선택지의 생성을 차단하도록 구성했습니다.
+**Repository → [SKN27-3rd-1TEAM](https://github.com/nanseong/SKN27-3rd-1TEAM)**
 
 ---
 
-## 📊 한국사 기출 Trend Analysis ML
+## 👻 괴이 기록 보관소
+### LLM · GraphDB 기반 괴담 아카이브 서비스
 
-`Machine Learning` `Classification` `Data Pipeline` `Feature Engineering`
+> 지역별 괴담과 금기 데이터를 탐색하고  
+> AI를 통해 새로운 괴담 콘텐츠를 생성할 수 있는 Django 웹 서비스
 
-한국사 기출문제를 자동으로 분류하여  
-**시대·주제별 출제 경향을 구조화하는 Machine Learning Pipeline**을 개발했습니다.
+**Role · Full-stack · UI/UX**
 
-단순 문제 예측기가 아니라
+`Python` `Django` `PostgreSQL` `JavaScript` `HTML` `CSS`
+
+### 담당 영역
+
+**Service UI Design**
+- 프로젝트 전체 화면 UI 설계
+- 괴담 아카이브 콘셉트에 맞는 사용자 경험 구성
+- Django Template 기반 화면 구현
+
+**Account System**
+- 회원가입
+- 로그인 / 로그아웃
+- Django Session 기반 인증
+- 마이페이지
+- 회원탈퇴
+
+등 사용자 계정 Flow를 구현했습니다.
 
 ```text
-기출 문제
+Sign Up
    ↓
-자동 Labeling
+Login
    ↓
-시대 / 주제 분류
+Session Authentication
    ↓
-출제 Trend 집계
+My Page
    ↓
-학습 계획 / 문제 생성
+Logout / Delete Account
 ```
 
-으로 이어지는 데이터 처리 시스템을 목표로 했습니다.
+**금기자료실**
+- `archive` 앱의 금기자료실 기능 구현
+- 저장된 콘텐츠를 사용자가 탐색할 수 있는 화면 및 Backend 로직 연결
 
-### Model Performance
+AI 기능뿐 아니라 **사용자가 실제로 서비스를 이용하기 위해 필요한 웹 기능과 UI를 직접 구현**하며 Full-stack 개발 경험을 확장했습니다.
 
-| 분류 | Macro F1 |
-|---|---:|
-| 시대 분류 | **0.93** |
-| 통합 주제 분류 | **0.85** |
-| 세부 주제 분류 | **0.70** |
-
-데이터 Labeling 체계를 개선하여  
-Macro F1을 최대 **+0.37** 향상시켰습니다.
-
-분석 결과는 개인화 학습 계획과 문제 생성 시스템에서 활용할 수 있도록 연결했습니다.
+**Repository → [SKN27-4th-1team](https://github.com/nanseong/SKN27-4th-1team)**
 
 ---
 
-## 🛡️ AI 문제 품질 검수 ML
+## 📊 Telco Customer Churn Analysis
+### 통신사 고객 이탈 예측 및 데이터 분석 서비스
 
-`Machine Learning` `Classification` `Quality Control`
+> 통신사 고객 데이터를 기반으로 이탈 위험 고객을 분석하고  
+> 분석 결과를 실제 비즈니스 의사결정 화면으로 연결한 ML 프로젝트
 
-AI가 생성한 문제를 자동으로 폐기하는 것이 아니라,  
-**검수가 필요한 선택지를 먼저 찾아주는 ML 모델**을 개발했습니다.
+`Python` `Pandas` `Scikit-learn` `Streamlit` `MySQL`
+
+### Project Experience
+
+- 통신사 고객 데이터 기반 EDA 및 ML Workflow 경험
+- 고객 이탈 예측 결과를 서비스 화면과 연결
+- Streamlit 기반 데이터 서비스 개발
+- MySQL을 활용한 서비스 데이터 관리
+- 팀 기반 ML 프로젝트의 기획 → 분석 → 서비스 구현 과정 경험
+
+이 프로젝트를 통해 정형 데이터 분석과 ML 서비스 개발을 경험했고,  
+이후 프로젝트에서는 RAG · GraphDB · LLM 기반 AI 시스템으로 개발 영역을 확장했습니다.
+
+**Repository → [SKN27-2nd-1TEAM](https://github.com/nanseong/SKN27-2nd-1TEAM)**
+
+---
+
+## 📈 Development Journey
 
 ```text
-문제 자동 폐기        ❌
-정답 예측             ❌
-
-오류 의심 선택지 탐지  ✅
-검수 우선순위 제공     ✅
+Data Analysis
+     │
+     ▼
+Machine Learning
+     │
+     ▼
+Web Application
+     │
+     ▼
+Vector Search · RAG
+     │
+     ▼
+Knowledge Graph
+     │
+     ▼
+Multi-Agent AI System
 ```
 
-문항 전체가 아닌 **선택지 단위 Binary Classification**으로 문제를 정의했습니다.
+정형 데이터 기반 ML 프로젝트에서 시작해  
+웹 서비스, VectorDB, RAG, Knowledge Graph, Multi-Agent 시스템으로 개발 범위를 확장해왔습니다.
 
-이를 통해 검수자가 모든 문제를 동일하게 확인하는 대신  
-오류 가능성이 높은 선택지를 우선적으로 검토할 수 있도록 설계했습니다.
-
----
-
-## What I Focus On
-
-제가 AI 프로젝트에서 중요하게 생각하는 것은  
-**모델을 사용하는 것보다 모델의 결과를 신뢰할 수 있게 만드는 것**입니다.
-
-```text
-Data
- ↓
-Retrieval
- ↓
-Generation
- ↓
-Validation
- ↓
-Service
-```
-
-각 단계에서 발생할 수 있는 오류를 정의하고,  
-LLM의 판단에만 의존하지 않고 **Code Validation과 Evaluation Pipeline을 함께 설계**하는 것을 지향합니다.
+현재는 개별 AI 모델의 성능뿐 아니라  
+**검색 → 추론 → 생성 → 검증이 하나의 서비스 안에서 안정적으로 동작하는 구조**에 관심을 두고 있습니다.
 
 ---
 
-## Currently Interested In
+## 📈 GitHub Stats
 
-- Reliable LLM System
-- Retrieval-Augmented Generation
-- Knowledge Graph + LLM
-- Agentic Workflow
-- AI Evaluation
-- Personalized AI Service
-- LLM / SLLM Hybrid Architecture
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nanseong&show_icons=true&hide_border=true&hide_title=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nanseong&layout=compact&hide_border=true)
 
 ---
 
-## GitHub Activity
+### Engineering Focus
 
-<!-- GitHub Stats -->
+> **좋은 AI 서비스는 답변을 생성하는 것에서 끝나지 않고,  
+> 그 답변이 어디에서 왔는지 설명할 수 있어야 한다고 생각합니다.**
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_ID&show_icons=true&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_ID&layout=compact&hide_border=true)
+RAG · Knowledge Graph · LLM을 중심으로  
+데이터에서 검색하고, 관계를 찾고, 근거 있는 결과를 사용자에게 전달하는  
+**신뢰할 수 있는 AI 서비스를 개발하고 있습니다.**

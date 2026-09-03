@@ -311,6 +311,13 @@ AI 기능 외에도 사용자가 실제로 서비스를 이용하는 데 필요�
 
 </details>
 
+### 🔗 Repository
+
+[HIMATE](https://github.com/nanseong/HIMATE) ·
+[MapleStory RAG](https://github.com/nanseong/SKN27-3rd-1TEAM) ·
+[괴이 기록 보관소](https://github.com/nanseong/SKN27-4th-1team) ·
+[Telco Churn](https://github.com/nanseong/SKN27-2nd-1TEAM)
+
 ---
 
 ## 📈 Development Journey

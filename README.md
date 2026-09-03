@@ -342,14 +342,6 @@ Multi-Agent AI System
 
 ---
 
-## 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nanseong&show_icons=true&hide_border=true&hide_title=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nanseong&layout=compact&hide_border=true)
-
----
-
 ### Engineering Focus
 
 > **좋은 AI 서비스는 답변을 생성하는 것에서 끝나지 않고,  

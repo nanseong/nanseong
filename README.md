@@ -74,7 +74,7 @@ RAG, VectorDB, Knowledge Graph, Multi-Agent를 활용한 AI 서비스를 개발�
 
 # 🚀 Projects
 
-<details open>
+<details>
 <summary><b>🇰🇷 HIMATE — AI 기반 맞춤형 한국사 학습 서비스</b></summary>
 
 <br>

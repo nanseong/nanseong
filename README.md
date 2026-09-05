@@ -1,4 +1,4 @@
-# 👋 안녕하세요, AI Engineer 권환성입니다.
+AI Engineer 권환성
 
 ### AI · RAG · Knowledge Graph · Backend
 
